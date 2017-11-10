@@ -5,3 +5,8 @@
 
 
 my_range = range(1, 21)
+my_list = []
+for num in range(1,21):
+    my_list.append(str(num))
+
+print(my_list)
