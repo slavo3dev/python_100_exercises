@@ -5,3 +5,9 @@ To test your solution, call the function by inputting values 0, 10, 0, 20 for v1
 Expected output: 0.5
 '''
 
+def acceleration(v2,v1,t2,t1):
+    acc = (v2-v1)/(t2 - t1)
+    print(acc)
+
+acceleration(5,1,9,1)
+
