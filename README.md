@@ -30,3 +30,5 @@
 ## pprint  module which is used to print out well formatted views of datatypes in Python.
 
 ## string  is a built-in module and string.ascii_lowercase  returns a string object containing all 26 letters of English alphabet. Then we simply iterate through that string and print out the string items.
+
+## A for  loop is used to repeat an action (i.e. print ) until the iterating sequence (i.e. range ) is consumed. In our case it would print all items of the range one by one.
