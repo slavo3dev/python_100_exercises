@@ -14,3 +14,5 @@
 ## Besides the left-to-right positive indexing system that starts from zero, sequence data types such as lists also have a second indexing system that starts from -1 and decreases by one from right to left. 
 
 ## Syntax of list slicing is [start:end:step] . When you don't pass a step, Python assumes the step is 1. [:]  itself means get everything from start to end. So, [::2]  means get everything from start to end at a step of two.
+
+## range()  is a Python built-in function that generates a range of integers. However, range()  creates a Python range object. To get a real list object you need to use the list() function to convert the range object into a list object.
