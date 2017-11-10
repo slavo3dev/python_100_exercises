@@ -1,10 +1,10 @@
 # make a list from 0 to 20, but dont add numbers manuale
 
-list = []
+list_one = []
 
 for num in range(0,21):
-    list.append(num)
-print(list)
+    list_one.append(num)
+print(list_one)
 
 # 2nd solution
 
@@ -14,5 +14,5 @@ print(list_two)
 
 # 3rd solution
 
-list_tree = range(0,21)
-print(list_tree)
+my_range = range(0, 21)
+print(list(my_range))
