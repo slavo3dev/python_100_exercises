@@ -9,4 +9,4 @@
 ## When getting an error, don't panic, but look closely at the error message. Knowing how to fix errors is as important as knowing to write programs.
 
 
-
+## slicing syntax is upper-bound exclusive
