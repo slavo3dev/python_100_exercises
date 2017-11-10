@@ -10,3 +10,5 @@
 
 
 ## slicing syntax is upper-bound exclusive
+
+## Besides the left-to-right positive indexing system that starts from zero, sequence data types such as lists also have a second indexing system that starts from -1 and decreases by one from right to left. 
