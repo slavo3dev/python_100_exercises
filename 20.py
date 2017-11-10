@@ -4,3 +4,7 @@
 d = {"a": 1, "b": 2, "c": 3}
 print(d['a'] + d['b'] + d['c'])
 # Expected output: 6 
+
+#2nd Solution
+
+print (sum(d.values()))
