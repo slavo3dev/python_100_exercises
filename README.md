@@ -7,3 +7,6 @@
 ##  Sometimes taking a break is the best thing you can do to solve a problem.
 
 ## When getting an error, don't panic, but look closely at the error message. Knowing how to fix errors is as important as knowing to write programs.
+
+
+
