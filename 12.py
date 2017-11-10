@@ -2,6 +2,6 @@
 # Expected output: 
 # [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200] 
 
-my_range = range(1, 201)
-print(my_range)
-print (my_range[::10])
+my_range = range(0, 201)
+
+print (list(my_range[::10]))
