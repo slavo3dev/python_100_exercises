@@ -5,3 +5,6 @@
 my_range = range(0, 201)
 
 print (list(my_range[::10]))
+
+# 2nd solution
+print ([10*x for x in range(1,21)])
