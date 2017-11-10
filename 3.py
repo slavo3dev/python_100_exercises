@@ -5,3 +5,5 @@ b = 2
 print(a == b)
 print(b == c)
 
+# c variable is not defined!!
+
