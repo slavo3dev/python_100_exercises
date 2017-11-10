@@ -26,3 +26,5 @@
 ## Ordered dictionaries are another data type in Python that unlike sets and normal dictionaries they preserve the order of the items. Here OrderedDict.fromkeys(a)  would produce an OrderedDict  like [('1', None), (1, None), (2, None)] . Then we would convert that OrderedDict  to a list.
 
 ## d.values()  returns a list-like dict_values  object while the sum  function calculates the sum of the dict_values  items.
+
+## pprint  module which is used to print out well formatted views of datatypes in Python.
