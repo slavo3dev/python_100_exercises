@@ -1,3 +1,5 @@
+from pprint import pprint
+
 # writing dic of a , b, c with a list of range numbers
 
 d = {
@@ -6,4 +8,4 @@ d = {
     'c': [list(range(21,31))]
 }
 
-print(d)
+pprint(d)
