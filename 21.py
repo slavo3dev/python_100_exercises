@@ -2,12 +2,12 @@
 
 d = {"a": 1, "b": 2, "c": 3}
 
-for i in d:
-    if d[i] > 1:
-        d.pop[i]
+for k, v in d.items():
+    if v > 1:
+        del d[k]
     else:
-        pass
+        print(d)
 
-print(d)
+
 
 # Expected output: {'a': 1}  
