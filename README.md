@@ -34,3 +34,5 @@
 ## A for  loop is used to repeat an action (i.e. print ) until the iterating sequence (i.e. range ) is consumed. In our case it would print all items of the range one by one.
 
 ## Always put non default parameters first followed by default ones.
+
+## A function is called using bracket notation () .
