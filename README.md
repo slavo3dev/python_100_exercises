@@ -28,3 +28,5 @@
 ## d.values()  returns a list-like dict_values  object while the sum  function calculates the sum of the dict_values  items.
 
 ## pprint  module which is used to print out well formatted views of datatypes in Python.
+
+## string  is a built-in module and string.ascii_lowercase  returns a string object containing all 26 letters of English alphabet. Then we simply iterate through that string and print out the string items.
