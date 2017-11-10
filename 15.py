@@ -4,3 +4,7 @@ my_dic = {
     "a": 1,
     "b": 2
 }
+
+# 2nd 
+
+my_dic_two = dict('name' = 'slavo', 'age' = 35)
