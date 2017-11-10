@@ -10,3 +10,7 @@ for num in range(1,21):
     my_list.append(str(num))
 
 print(my_list)
+
+# 2nd solution
+
+print(list(map(str, my_range)))
