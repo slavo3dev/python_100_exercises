@@ -10,6 +10,16 @@ with open(text_file) as file_obj:
 
 my_str = content
 
+# 2nd solution
+
+def count_words(filepath):
+    with open(filepath, 'r') as file:
+        strng = file.read()
+        strng_list = strng.split(" ")
+        return len(strng_list)
+ 
+print(count_words("words1.txt"))
+
 
 def count_str(str_use):
     print('Your str lenght is: ', len(str_use.split()))
