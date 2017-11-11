@@ -14,7 +14,7 @@ with open(file_name, 'w') as f:
     alph_str = string.ascii_lowercase
     for letter in alph_str:
         if alph_str.index(letter) % 2 == 0:
-            f.write(letter + alph_str[alph_str.index(letter) + 1])
+            f.write(letter + alph_str[alph_str.index(letter) + 1] + '\n')
 
 
 
