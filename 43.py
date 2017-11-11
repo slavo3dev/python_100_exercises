@@ -9,14 +9,12 @@ import string
 
 file_name = 'word4.txt'
 
-''''
-with open(file_name, 'w') as f:
-    for letter in string.ascii_lowercase:
-        f.write(letter + '\n')
-'''
-alph_str = string.ascii_lowercase
-print(alph_str.index('c'))
 
-for letter in alph_str:
-    if alph_str.index(letter) % 2 == 0:
-        print(letter)
+with open(file_name, 'w') as f:
+    alph_str = string.ascii_lowercase
+    for letter in alph_str:
+        if alph_str.index(letter) % 2 == 0:
+            f.write(letter + alph_str[alph_str.index(letter) + 1])
+
+
+
