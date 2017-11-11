@@ -11,6 +11,8 @@ def count_str(cnt_str):
         content = f.read()
     cnt_str = content
     cnt_str = re.split('\W+', cnt_str)
+    cnt_str = cnt_str.remove(-1)
+    print(cnt_str[9])
     print ('Your string has: ', len(cnt_str), ' number of words')
 
 count_str(my_str)
