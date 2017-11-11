@@ -9,4 +9,8 @@ Expected output:
 7
 9
 '''
-print (a[0] + b[0], '\n', a[1] + b[1], '\n', a[2] + b[2])
+print (a[0] + b[0], '\n',a[1] + b[1], '\n',a[2] + b[2])
+
+# 2nd and write solution zip method
+for x, y in zip(a,b):
+    print(x+y)
