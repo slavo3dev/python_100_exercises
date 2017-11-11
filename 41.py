@@ -4,11 +4,15 @@ import string
 
 file_text = 'word3.txt'
 
-def addin_strings(str_name):
+def add_string(str_name):
     with open(file_text, 'w') as f:
         for letter in str_name:
-            f.write(letter + '\n')
-        
+            f.write(letter + '\n')      
 my_str = string.ascii_lowercase
-addin_strings(my_str)
+add_string(my_str)
     
+# 2nd solution to problem
+
+with open("letters.txt", "w") as file:
+    for letter in string.ascii_lowercase:
+        file.write(letter + "\n") 
