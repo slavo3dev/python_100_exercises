@@ -9,6 +9,7 @@ import string
 
 file_name = 'word5.text'
 
-alphabet_str = string.ascii_lowercase
-print(alphabet_str[0:3])
+with open(file_name, 'w') as f:
+    for l1, l2, l3 in zip(string.ascii_lowercase[0::2], string.ascii_lowercase[1::2], string.ascii_lowercase[2::2]):
+        f.write(l1 + l2 + l3 + '\n')
 
