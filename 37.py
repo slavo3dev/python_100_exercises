@@ -3,17 +3,14 @@ Question: Create a function that takes a text file as input and returns the numb
 '''
 import re 
 
+my_str = ''
 file_name = 'words2.txt'
 
-with open(file_name) as f:
-    content = f.read()
-my_str = content
-'''
-my_str = my_str.replace(',',' ')
-my_str = my_str.replace("'", ' ')
-my_str = my_str.replace('.', ' ')
-print(my_str)
-'''
-my_str = re.split('\W+', my_str)
-print(my_str)
+def count_str(cnt_str):
+    with open(file_name) as f:
+        content = f.read()
+    cnt_str = content
+    cnt_str = re.split('\W+', cnt_str)
+    print ('Your string has: ', len(cnt_str), ' number of words')
 
+count_str(my_str)
