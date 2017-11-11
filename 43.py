@@ -11,5 +11,5 @@ file_name = 'word4.txt'
 
 with open(file_name, 'w') as f:
     for letter in string.ascii_lowercase:
-        f.write(letter + '\n\t')
+        f.write(letter + '\n')
 
