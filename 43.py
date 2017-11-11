@@ -17,4 +17,8 @@ with open(file_name, 'w') as f:
             f.write(letter + alph_str[alph_str.index(letter) + 1] + '\n')
 
 
+# 2nd solution
 
+with open(word4_2nd.txt, 'w') as file:
+    for l1, l2 in zip(string.ascii_lowercase[0::2], string.ascii_lowercase[1::2]):
+        file.write(l1 + l2 + '\n')
