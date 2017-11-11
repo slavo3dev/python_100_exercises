@@ -6,7 +6,8 @@ file_text = 'word3.txt'
 
 def addin_strings(str_name):
     with open(file_text, 'w') as f:
-        f.write(str_name)
+        for letter in str_name:
+            f.write(letter + '\n')
         
 my_str = string.ascii_lowercase
 addin_strings(my_str)
