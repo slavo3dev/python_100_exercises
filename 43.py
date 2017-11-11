@@ -7,8 +7,9 @@ and so on.
 '''
 import string
 
-file_name = 'word3'
+file_name = 'word4.txt'
 
-with open(file_name) as f:
-    f.write(string.ascii_lowercase)
-    
+with open(file_name, 'w') as f:
+    for letter in string.ascii_lowercase:
+        f.write(letter + '\n\t')
+
