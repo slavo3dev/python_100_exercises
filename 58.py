@@ -6,9 +6,8 @@ from pprint import pprint
 
 json_file = ('company1.json')
 
-new_eployee = "employees"[{'firstName': 'Slavo', 'lastName': 'Popovic'}]
 
 with open(json_file, 'r') as target:
     data_file = json.load(target)
-    data_file = data_file.append(new_eployee)
+    data_file["employees"][{'firstName': 'Slavo', 'lastName': 'Popovic'}]
     pprint(data_file)
