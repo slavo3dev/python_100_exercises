@@ -12,11 +12,10 @@ Hello
 ...
 
 '''
-
 from time import sleep
 
 count = 0
-while count < 20:
-    print ("Hello Slavo after ", count + 1, 's !!')
+while count < 5:
+    print ("Welcom after ", count + 1, 's !! TIME MODULE!!!')
     sleep(count + 1)
     count = count + 1 
