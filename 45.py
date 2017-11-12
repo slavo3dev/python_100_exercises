@@ -6,13 +6,15 @@ str = string.ascii_lowercase
 
 for letter in str:
     with open('test_case/' + letter + '.txt', 'w') as f:
-        f.write('Slavo this is: ' + letter)
+        f.write( letter)
 
 
 # 2 solution
-
+'''
 if not os.path.exists('letters'):
     os.makedirs('letters')
 for letter in str:
     with open('letters/' + letter + '.txt', 'w') as f:
         f.write("this is other solution: " + letter)
+
+'''
