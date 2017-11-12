@@ -19,6 +19,8 @@ active = True
 while active:
     if count < 7:
         print('Welcome to Python World after ', count, ' s!!!!!')
+        sleep(count)
     else: 
         print('End of the loop\nThank You and good buy')
         active = False
+    count = count + 1
