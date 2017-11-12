@@ -25,3 +25,8 @@ d = {
           "owners":       
                    [{"firstName": "Jack", "lastName": "Petter"},
                    {"firstName": "Jessy", "lastName": "Petter"}]}
+
+
+d['employees'].append({'firstName': 'Slavo', 'lastName': 'Popovic' })
+
+print(d)
