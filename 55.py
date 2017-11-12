@@ -30,3 +30,7 @@ d = {
 d['employees'].append({'firstName': 'Slavo', 'lastName': 'Popovic' })
 
 print(d)
+
+# 2nd Solution using dict()
+
+d["employees"].append(dict(firstName = "Albert", lastName = "Bert"))
