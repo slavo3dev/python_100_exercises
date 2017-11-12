@@ -14,5 +14,5 @@ Expected output:
 import json, pprint
 
 with open('company1.json', "r") as f:
-    content = json.load(f)
+    content = json.load(f.read())
     pprint.pprint (content)
