@@ -7,7 +7,11 @@ from pprint import pprint
 json_file = ('company1.json')
 
 
-with open(json_file, 'r') as target:
+with open(json_file, 'r+') as target:
     data_file = json.load(target)
-    data_file["employees"][{'firstName': 'Slavo', 'lastName': 'Popovic'}]
     pprint(data_file)
+    data_file['employees'].append(dict(firstName = 'Slavo', lastName = 'Popovic'))
+    json.dump(data_file, target, indent=4, sort_keys=True)
+    
+
+
