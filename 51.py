@@ -6,7 +6,9 @@ print(type("Hey".replace("ey","i")[-1])
 
 '''
 
-print("Hey".replace("ey","i"))
+# print("Hey".replace("ey","i"))
+
+print(type("Hey".replace("ey","i")[-1]))
 
 
-# Needs to remove type() becacuse , this method checking the type of the variable
+# missing )
