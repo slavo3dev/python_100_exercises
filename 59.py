@@ -6,5 +6,6 @@ Item 1 has index 0
 Item 2 has index 1
 Item 3 has index 2
 '''
+a = [1, 2, 3] 
 for x in a: 
     print('Item' + x + 'has index ' + a.index(x))
