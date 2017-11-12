@@ -1,18 +1,18 @@
 '''
 
-Question: Create an English to Portuguese translation program.
+Question: Create an English to Serbian translation program.
 
 The program takes a word from the user as input and translates it using the following dictionary as a vocabulary source.
 
-d = dict(weather = "clima", earth = "terra", rain = "chuva") 
+d = dict(weather = "vreme", earth = "zemlja", rain = "kisa") 
 
 Expected output: 
 
 Enter word: earth
-terra
+zemlja
 
 '''
-d = dict(weather = "clima", earth = "terra", rain = "chuva")
+d = dict(weather = "vreme", earth = "zemlja", rain = "kisa")
 def vocabulary(word):
     return d[word]
  
