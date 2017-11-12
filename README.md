@@ -1,4 +1,4 @@
-# TIPS
+# TIPS & Key Notes
 
 ## Great, you completed two exercises. Here are some simple programming tips to make the best of the course:
 
@@ -36,3 +36,5 @@
 ## Always put non default parameters first followed by default ones.
 
 ## A function is called using bracket notation () .
+
+## indent=4  will create 4 white spaces to indent the different levels of the dictionary items and sort_keys=True  tells Python to preserve the order of the dictionary thrown in the file.
