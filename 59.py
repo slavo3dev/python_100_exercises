@@ -8,4 +8,4 @@ Item 3 has index 2
 '''
 a = [1, 2, 3] 
 for x in a: 
-    print('Item' + x + 'has index ' + a.index(x))
+    print('Item ', x, 'has index ' ,a.index(x))
