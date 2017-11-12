@@ -8,6 +8,8 @@ d = {"employees":[{"firstName": "John", "lastName": "Doe"},
           {"firstName": "Jessy", "lastName": "Petter"}]}
 
 '''
+import json
+
 d = {
                 "employees":
                               [
@@ -21,3 +23,8 @@ d = {
                                   {"firstName": "Jessy", "lastName": "Petter"}
                                 ]
     }
+
+
+with open('file.json', 'w') as f:
+    json.dump(d,f)
+
