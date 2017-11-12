@@ -26,5 +26,5 @@ d = {
 
 
 with open('file.json', 'w') as f:
-    json.dump(d,f)
+    json.dump(d,f,indent=4, sort_keys=True)
 
