@@ -17,7 +17,7 @@ count = 0
 active = True
 
 while active:
-    if count < 7:
+    if count < 4:
         print('Welcome to Python World after ', count, ' s!!!!!')
         sleep(count)
     else: 
