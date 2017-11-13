@@ -24,3 +24,8 @@ while active:
         print('End of the loop\nThank You and good buy')
         active = False
     count = count + 1
+
+# advance solution
+
+
+    

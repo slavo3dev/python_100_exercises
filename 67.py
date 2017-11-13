@@ -35,3 +35,20 @@ while active:
         active = False
 
 print ('Thank You for Choosing MimiCom24!!!!')
+
+# 2nd solution
+def translation(word):
+    try:
+        return d[word]
+    except:
+        print("This word doesn't exist!!\nPlease try again!!")
+
+while active:
+    print('Please print q if you want to exit!!')
+    w = input('Please choose word (weather, earth, rain): ')
+    if w != 'q':
+        print("Your word in Serbian means: ", translation(w))
+    else:
+        active = False
+
+print ('Thank You for Choosing MimiCom24!!!!')
