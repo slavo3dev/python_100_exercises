@@ -38,3 +38,5 @@
 ## A function is called using bracket notation () .
 
 ## indent=4  will create 4 white spaces to indent the different levels of the dictionary items and sort_keys=True  tells Python to preserve the order of the dictionary thrown in the file.
+
+## In the code Python is actually referring to the script name which is requests  and it doesn't find a get attribute for that name. Script names load in the current namespace. They are actually stored in the __name__  variable. You could try to print that variable out and you would see that it prints your script name. Therefore you should not name your scripts under library names. 
