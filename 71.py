@@ -19,4 +19,13 @@ for letter in text_content:
     if letter == 'a':
         count += 1
         
-print("Count number of letter 'a' is: ", count
+print("Count number of letter 'a' is: ", count)
+
+# advance solution
+
+import requests
+ 
+response = requests.get("http://www.pythonhow.com/data/universe.txt")
+text = response.text
+count_a = text.count("a")
+print(count_a)
