@@ -6,8 +6,6 @@ import matplotlib
 import pandas
 
 
-with open('75.txt') as f:
-    file_load = f.read()
+f_load = pandas.read_csv('75.txt')
 
-new_file = list(file_load)
-print (new_file)
+print(f_load)
