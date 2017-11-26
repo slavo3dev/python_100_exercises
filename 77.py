@@ -19,3 +19,5 @@ while active:
         active = False
     else: 
         print ('You where born ', (today - my_age))
+
+print ('Thank You, See you Soon!!')
