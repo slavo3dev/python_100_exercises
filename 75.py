@@ -15,8 +15,19 @@ plt.scatter(f_x, f_y, s=40)
 plt.show()
 
 # Solution 2
-
+import pylab as plt 
 data = pandas.read_csv("http://www.pythonhow.com/data/sampledata.txt")
 data.plot(x='x', y='y', kind='scatter')
 plt.show()
 
+#Solution 3
+from bokeh.plotting import figure
+from bokeh.io import output_file, show
+import pandas
+ 
+output_file("bokeh_plot.html")
+data = pandas.read_csv("http://www.pythonhow.com/data/sampledata.txt")
+f = figure()
+f.circle(x=data["x"], y=data["y"])
+ 
+show(f)
