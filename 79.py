@@ -17,9 +17,9 @@ print(password)
 numbers = '01234567890'
 uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 character = '!@#$%^&*()?'
-user_password = ''
 while True:
-    user_password: input('Enter Password?' )
+    user_password = input('Enter Password?' )
+    print (user_password)
     for n in user_password:
         if numbers == n and uppercase == n and character == n and len(password) == len(user_password):
             True
