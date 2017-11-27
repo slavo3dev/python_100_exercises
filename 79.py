@@ -7,23 +7,11 @@ Paassword checker
 
 '''
 
-import random
- 
-characters = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
-chosen = random.sample(characters, 6)
-print (chosen)
-password = "".join(chosen)
-print(password)
-numbers = '01234567890'
-uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-character = '!@#$%^&*()?'
 while True:
-    user_password = input('Enter Password?' )
-    print (user_password)
-    for n in user_password:
-        if numbers == n and uppercase == n and character == n and len(password) == len(user_password):
-            True
-            print('Password is fine, well done')
-        
-    print('Password is not good, please try again!')
+    psw = input("Enter new password: ")
+    if any(i.isdigit() for i in psw) and any(i.isupper() for i in psw) and len(psw) >= 5:
+        print("Password is fine")
+        break
+    else:
+        print("Passowrd is not fine")
         
