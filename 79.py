@@ -24,6 +24,6 @@ while True:
         if numbers == n and uppercase == n and character == n and len(password) == len(user_password):
             True
             print('Password is fine, well done')
-        else:
-            print('Password is not good, please try again!')
+        
+    print('Password is not good, please try again!')
         
