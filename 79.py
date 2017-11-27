@@ -17,8 +17,7 @@ print(password)
 numbers = '01234567890'
 uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 character = '!@#$%^&*()?'
-
-
+user_password = ''
 while True:
     user_password: input('Enter Password?' )
     for n in user_password:
