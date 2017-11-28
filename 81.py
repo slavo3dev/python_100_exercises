@@ -6,13 +6,13 @@ user_file = open('81_users.txt', 'r')
 users = user_file.readlines()
 
 while True:
-    user = lower(input('Please add your user name? '))
-    for i in users:
+    user = (input('Please add your user name? ')).lower()
+    for i in user:
         if user == i:
             print("Welcome %s!!" %user)
             break 
-        else:
-            print ('Please try again user is not valid!!')
+        
+    print ('Please try again user is not valid!!')
 
 '''
 whit open('81_users.txt', 'r') as f:
