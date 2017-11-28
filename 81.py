@@ -4,11 +4,17 @@ Creat a input for username - if username exits in date ask for a password
 user_file = open('81_users.txt', 'r')
 users = user_file.readlines()
 print(users)
+user_list = []
 for i in users:
-    print('Users: %s' %i)
+    j = i.replace('\n', ' ')
+    user_list.append(j)
+
+print (user_list)
+user_list = [x.strip(' ') for x in user_list]
+print (user_list)
 
 
-
+'''
 while True:
     user = (input('Please add your user name? ')).lower()
     for i in user:
@@ -17,7 +23,7 @@ while True:
             break 
         
     print ('Please try again user is not valid!!')
-
+'''
 '''
 # password checker
 while True:
