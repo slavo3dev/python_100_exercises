@@ -12,12 +12,13 @@ for i in users:
 print (user_list)
 user_list = [x.strip(' ') for x in user_list]
 print (user_list)
-while True:
+active = True
+while active:
     user = (input('Please add your user name? ')).lower()
     for i in user_list:
         if user == i:
             print("Welcome %s!!" %(user.title()))
-            break 
+            active = False
         else:
             print ('Please try again user is not valid!!')
 
