@@ -12,17 +12,14 @@ for i in users:
 print (user_list)
 user_list = [x.strip(' ') for x in user_list]
 print (user_list)
-
-
-
 while True:
     user = (input('Please add your user name? ')).lower()
     for i in user_list:
         if user == i:
-            print("Welcome %s!!" %user)
+            print("Welcome %s!!" %(user.title()))
             break 
-        
-    print ('Please try again user is not valid!!')
+        else:
+            print ('Please try again user is not valid!!')
 
 '''
 # password checker
