@@ -10,5 +10,15 @@ while True:
     if any(i.isdigit() for i in psw) and any(i.isupper() for i in psw) and len(psw) >= 5:
         print("Password is fine")
         break
+    elif any(i.isdigit() for i in psw) and any(i.isupper() for i in psw):
+        print ("Your don't have 6 characters in password!")
+        pass
+    elif any(i.isupper() for i in psw) and len(psw) >= 5:
+        print ("You need to have a digits also please try again!")
+        pass
+    elif any(i.isdigit() for i in psw) and len(psw) >= 5:
+        print ('Your password need at least one uppler case letter!')
+        pass
     else:
         print("Passowrd is not fine")
+
