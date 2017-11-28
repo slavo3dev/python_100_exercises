@@ -3,9 +3,14 @@ Creat a input for username - if username exits in date ask for a password
 
 '''
 
+user_file = open('81_users.txt', 'r')
+print (user_file.read())
 
-
-
+'''
+whit open('81_users.txt', 'r') as f:
+    user_file =f.read()
+'''
+'''
 # password checker
 while True:
     psw = input("Enter new password: ")
@@ -23,3 +28,4 @@ while True:
         pass
     else:
         print("Passowrd is not fine!(Missing at least one upper case letter,  symbol, charater ")
+'''
