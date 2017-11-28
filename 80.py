@@ -4,7 +4,7 @@ should contain at least one number, one uppercase letter and at least 5 characte
 If the conditions are generated, 
 print out the reason why pointing to the specific condition/s that has not been satisfied.
 '''
-
+'''
 while True:
     psw = input("Enter new password: ")
     if any(i.isdigit() for i in psw) and any(i.isupper() for i in psw) and len(psw) >= 5:
@@ -21,4 +21,21 @@ while True:
         pass
     else:
         print("Passowrd is not fine!(Missing at least one upper case letter,  symbol, charater ")
+'''
 
+while True:
+    notes = []
+    psw = input("Enter password: ")
+    if not any(i.isdigit() for i in psw):
+        notes.append("You need at least one number")
+    if not any(i.isupper() for i in psw):
+        notes.append("You need at least one uppercase letter")
+    if len(psw) < 5:
+        notes.append("You need at least 5 characters")
+    if len(notes) == 0:
+        print("Password is fine")
+        break
+    else:
+        print("Please check the following: ")
+        for note in notes:
+            print(note)
