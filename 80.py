@@ -17,8 +17,8 @@ while True:
         print ("You need to have a digits also please try again!")
         pass
     elif any(i.isdigit() for i in psw) and len(psw) >= 5:
-        print ('Your password need at least one uppler case letter!')
+        print ('Your password need at least one upper case letter!')
         pass
     else:
-        print("Passowrd is not fine")
+        print("Passowrd is not fine!(Missing at least one upper case letter,  symbol, charater ")
 
