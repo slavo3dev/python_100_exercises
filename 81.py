@@ -8,7 +8,6 @@ user_list = []
 for i in users:
     j = i.replace('\n', ' ')
     user_list.append(j)
-
 print (user_list)
 user_list = [x.strip(' ') for x in user_list]
 print (user_list)
@@ -20,8 +19,8 @@ while active:
             print("Welcome %s!!" %(user.title()))
             active = False
             break
-        
-    print ('Please try again user is not valid!!')
+        else:
+            print ('Please try again user is not valid!!')
 
 '''
 # password checker
