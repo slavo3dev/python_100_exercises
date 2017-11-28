@@ -19,8 +19,9 @@ while active:
         if user == i:
             print("Welcome %s!!" %(user.title()))
             active = False
-        else:
-            print ('Please try again user is not valid!!')
+            break
+        
+    print ('Please try again user is not valid!!')
 
 '''
 # password checker
