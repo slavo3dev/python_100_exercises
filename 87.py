@@ -3,10 +3,13 @@ Adding missing data to a file to a data
 '''
 
 s = ["Portugal", "Germany", "Spain"]
+s = [i + '\n' for i n s]
+
 with open ('87_text.txt', 'r') as f:
     l_ctr = f.readlines()
 
-l_ctr = [i.strip('\n') for i in l_ctr]
+update_list = sorted(l_ctr + s)
 
-l_ctr = [i for i in s if i not in l_ctr]
-
+whit open('87_text_new.txt', 'w') as f:
+    for i in update_list:
+        f.write(i)
