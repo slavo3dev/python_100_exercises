@@ -10,8 +10,10 @@ a new text file that contains a flawless list of country names
 '''
 
 with open('85_text.txt', 'r') as f:
-    ctr = f.read()
+    ctr = f.readlines()
 
+ctr = [i.strip('\n') for i in ctr if '\n' in i]
+ctr = [i for i in ctr if i !="" and i !='Top of Page' and len(i) != 1]
 print(ctr)
 
     
