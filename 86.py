@@ -9,3 +9,9 @@ Once you have filtered out checklist , then print it out.
 Expected output: 
 ['Germany', 'Portugal', 'Spain']
 '''
+checklist = ["Portugal", "Germany", "Munster", "Spain"]
+
+with open('86_text.txt') as f:
+    check = f.readlines()
+
+    print(check)
