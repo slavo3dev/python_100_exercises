@@ -15,9 +15,10 @@ def check_list(list_coutries):
     with open('86_text.txt') as f:
         check = f.readlines()
     check = [i.strip('\n') for i in check if '\n' in i ]
-    for i in list_coutries:
-        for j in check:
-            if i !=j: 
-                list_coutries.remove('i')
+    for i in check:
+        for j in list_coutries:
+            if j != i: 
+                list_coutries.remove(j)
     return list_coutries
-print(check_list())
+
+print(check_list(["Portugal", "Germany", "Munster", "Spain"]))
