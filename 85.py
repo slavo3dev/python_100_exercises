@@ -9,9 +9,9 @@ a new text file that contains a flawless list of country names
  The new file content should look like in the expected output.
 '''
 
-whit open('85_text.txt', 'r') as f:
-    ctr = f.read
+with open('85_text.txt', 'r') as f:
+    ctr = f.read()
 
-print(crt)
+print(ctr)
 
     
