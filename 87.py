@@ -10,6 +10,6 @@ with open ('87_text.txt', 'r') as f:
 
 update_list = sorted(l_ctr + s)
 
-whit open('87_text_new.txt', 'w') as f:
+with open('87_text_new.txt', 'w') as f:
     for i in update_list:
         f.write(i)
