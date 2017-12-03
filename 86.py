@@ -11,11 +11,13 @@ Expected output:
 '''
 checklist = ["Portugal", "Germany", "Munster", "Spain"]
 
-
 def check_list(list_coutries):
     with open('86_text.txt') as f:
         check = f.readlines()
     check = [i.strip('\n') for i in check if '\n' in i ]
-    return check
-
+    for i in list_coutries:
+        for j in check:
+            if i !=j: 
+                list_coutries.remove('i')
+    return list_coutries
 print(check_list())
