@@ -16,4 +16,6 @@ ctr = [i.strip('\n') for i in ctr if '\n' in i]
 ctr = [i for i in ctr if i !="" and i !='Top of Page' and len(i) != 1]
 print(ctr)
 
-    
+with open('85_new_text.txt', 'w') as f:
+    for i in ctr:
+        f.write(i+'\n') 
