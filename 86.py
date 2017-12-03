@@ -18,7 +18,6 @@ def check_list(c_list):
     for i in c_list:
         if i not in check:
             c_list.remove(i)
-print(c_list)
-    return list_coutries
+    return c_list
 
 print(check_list(["Portugal", "Germany", "Munster", "Spain"]))
