@@ -8,4 +8,5 @@ import pandas as pd
 
 f = pd.read_csv('88.txt')
 f["density"] = f["population_2013"] / f["area_sqkm"]
-print(f)
+f = f.sort_values(by='density', )
+print(f[:5])
